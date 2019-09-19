@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">3 Combo</button>
+<button onclick="myFunction1()">4 Combo</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+	vari = Math.ceil(Math.random()*12)
+    if (vari == 4) {
+    	while (vari==4){
+    		vari = Math.ceil(Math.random()*12)
+            
+            }
+    }    
+  vari1 = Math.ceil(Math.random()*12)
+  vari2 = Math.ceil(Math.random()*12)
+  var result = vari +" - "+ vari1 +" - "+ vari2
+  var result = result.fontsize(20)
+  var result = result.bold()
+  document.getElementById("demo").innerHTML = result;
+  
+}
+
+
+function myFunction1() {
+	vari = Math.ceil(Math.random()*12)
+    if (vari == 4) {
+    	while (vari==4){
+    		vari = Math.ceil(Math.random()*12)
+            }
+    }
+    
+  vari1 = Math.ceil(Math.random()*12)
+  vari2 = Math.ceil(Math.random()*12)
+  vari3 = Math.ceil(Math.random()*12)
+  document.getElementById("demo").innerHTML = vari +" - "+ vari1 +" - "+ vari2 +" - "+ vari3;
+}
+</script>
+
+</body>
+</html>
